@@ -1,16 +1,18 @@
 package junit.tutorial.ex01.e02;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import java.util.ArrayList;
-import java.util.List;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
+
 class CalculatorTest {
 
-	@Test
-	void divide() {
-		System.out.println("divide");
-		int 
-	}
+
+    @Test
+    public void maltiplication() throws Exception {
+        Calculator sut = new Calculator();
+        int expected = 0;
+
+        assertEquals(expected,(expected));
+    }
+}
